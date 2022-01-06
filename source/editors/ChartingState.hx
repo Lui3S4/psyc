@@ -57,6 +57,9 @@ class ChartingState extends MusicBeatState
 		'Alt Animation',
 		'Hey!',
 		'Hurt Note',
+		'Blammed Note',
+		'halfBlammed Note',
+		'Instakill Note',
 		'GF Sing',
 		'No Animation'
 	];
@@ -77,7 +80,18 @@ class ChartingState extends MusicBeatState
 		['Camera Follow Pos', "Value 1: X\nValue 2: Y\n\nThe camera won't change the follow point\nafter using this, for getting it back\nto normal, leave both values blank."],
 		['Alt Idle Animation', "Sets a speciied suffix after the idle animation name.\nYou can use this to trigger 'idle-alt' if you set\nValue 2 to -alt\n\nValue 1: Character to set (Dad, BF or GF)\nValue 2: New suffix (Leave it blank to disable)"],
 		['Screen Shake', "Value 1: Camera shake\nValue 2: HUD shake\n\nEvery value works as the following example: \"1, 0.05\".\nThe first number (1) is the duration.\nThe second number (0.05) is the intensity."],
-		['Change Character', "Value 1: Character to change (Dad, BF, GF)\nValue 2: New character's name"]
+		['Change Character', "Value 1: Character to change (Dad, BF, GF)\nValue 2: New character's name"],
+		['animatedbgchange', "Value 1: Name of the image AND xml file \nValue 2: the images tag"],
+		['BF Fade', "Value 1: Duration (0 = Instant) \nValue 2: Target transparency value"],
+		['bgchange', "Value 1: Name of the image \nValue 2: the sprites tag"],
+		['Drain', "Value 1 : How much health, half health is 1."],
+		['FlipUI', "Value 1 : Rotates the screen 180 degrees"],
+		['Gain', "Value 1 : How much health, half health is 1"],
+		['imageflash', "Value 1: Name of the image \nValue 2: Duration (in seconds)"],
+		['LinearAlpha', "Value 1: How long to tween for (in seconds) \nValue 2: Target Transparency"],
+		['LinearAlphaBF', "Value 1: How long to tween for (in seconds) \nValue 2: Target Transparency"],
+		['LinearAlphaOPT', "How long to tween for (in seconds) \nValue 2: Target Transparency"],
+		['Opponent Fade', "Value 1: Duration (0 = Instant)\nValue 2: Target transparency value"]
 	];
 
 	var _file:FileReference;
