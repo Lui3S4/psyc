@@ -84,7 +84,7 @@ class ChartingState extends MusicBeatState
 		['animatedbgchange', "Value 1: Name of the image AND xml file \nValue 2: the images tag"],
 		['BF Fade', "Value 1: Duration (0 = Instant) \nValue 2: Target transparency value"],
 		['bgchange', "Value 1: Name of the image \nValue 2: the sprites tag"],
-		['Drain', "Value 1 : How much health, half health is 1."],
+		['HealthDrain', "Value 1: How much health to drain when opponent sings (0.5 recommended)Value 2: Lowest Health Possible From Drain (0.01 recommened)"],
 		['FlipUI', "Value 1 : Rotates the screen 180 degrees"],
 		['Gain', "Value 1 : How much health, half health is 1"],
 		['imageflash', "Value 1: Name of the image \nValue 2: Duration (in seconds)"],
