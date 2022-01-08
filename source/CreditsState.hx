@@ -46,6 +46,7 @@ class CreditsState extends MusicBeatState
 		add(grpOptions);
 
 		var pisspoop = [ //Name - Icon name - Description - Link - BG Color
+
                         ["Creator Cookie Engine"],
 			['DotorBiscoito',		'Biscoito',	"Programmer of Cookie Engine'",				'https://youtube.com/channel/UCq6YSL7iO6mkOFI7fLe_GPA',	'0xFFF86819'],
                         ['Kauãシ',		'kaua',	"Programmer of Cookie Engine'",				'https://m.youtube.com/channel/UCyPFfh3UejXvytS6p14A9Lg',	'0xFFF86819'],
