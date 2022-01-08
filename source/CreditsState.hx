@@ -46,27 +46,14 @@ class CreditsState extends MusicBeatState
 		add(grpOptions);
 
 		var pisspoop = [ //Name - Icon name - Description - Link - BG Color
-			['Psych Engine Team'],
-			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	'0xFFFFDD33'],
-			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',				'https://twitter.com/river_oaken',		'0xFFC30085'],
-			[''],
-			['Engine Contributors'],
-			['shubs',				'shubs',			'New Input System Programmer',						'https://twitter.com/yoshubs',			'0xFF4494E6'],
-			['PolybiusProxy',		'polybiusproxy',	'.MP4 Video Loader Extension',						'https://twitter.com/polybiusproxy',	'0xFFE01F32'],
-			['gedehari',			'gedehari',			'Chart Editor\'s Sound Waveform base',				'https://twitter.com/gedehari',			'0xFFFF9300'],
-			['Keoiki',				'keoiki',			'Note Splash Animations',							'https://twitter.com/Keoiki_',			'0xFFFFFFFF'],
-			['SandPlanet',			'sandplanet',		'Mascot\'s Owner\nMain Supporter of the Engine',		'https://twitter.com/SandPlanetNG',	'0xFFD10616'],
-			['bubba',				'bubba',		'Guest Composer for "Hot Dilf"',	'https://www.youtube.com/channel/UCxQTnLmv0OAS63yzk9pVfaw',	'0xFF61536A'],
-			[''],
-			["Funkin' Crew"],
-			['ninjamuffin99',		'ninjamuffin99',	"Programmer of Friday Night Funkin'",				'https://twitter.com/ninja_muffin99',	'0xFFF73838'],
-			['PhantomArcade',		'phantomarcade',	"Animator of Friday Night Funkin'",					'https://twitter.com/PhantomArcade3K',	'0xFFFFBB1B'],
-			['evilsk8r',			'evilsk8r',			"Artist of Friday Night Funkin'",					'https://twitter.com/evilsk8r',			'0xFF53E52C'],
-			['kawaisprite',			'kawaisprite',		"Composer of Friday Night Funkin'",					'https://twitter.com/kawaisprite',		'0xFF6475F3'],
-                        [''],
                         ["Creator Cookie Engine"],
-			['DotorBiscoito',		'Biscoito',	"Programmer of Cookie Engine'",				'https://youtube.com/channel/UCq6YSL7iO6mkOFI7fLe_GPA',	'0xFFF86819']
-		];
+			['DotorBiscoito',		'Biscoito',	"Programmer of Cookie Engine'",				'https://youtube.com/channel/UCq6YSL7iO6mkOFI7fLe_GPA',	'0xFFF86819'],
+                        [''],
+                        ["thanking special"],
+			['Frost',                       'frost',	     "discord man'",				        'https://m.youtube.com/channel/UCZfQGtR3KnLUQ5yYQIXyw7g',	'0xFFF91894'],
+                        ['Black195',                  'breck',            "brother of kaua'",                               'https://m.youtube.com/channel/UCyPFfh3UejXvytS6p14A9Lg',       '0xFFF91894'],    
+                        ['DemonFeverYT',                   'fever',            "you It's not a character'",                               'https://m.youtube.com/channel/UCFUjqTSJlxDVEdojsuC0Y0Q',       '0xFFF91894'],
+                        ['DemonFeverYT',                   'fever',            "you It's not a character'",                               'https://m.youtube.com/channel/UCFUjqTSJlxDVEdojsuC0Y0Q',       '0xFFF91894'],  
 		
 		for(i in pisspoop){
 			creditsStuff.push(i);
