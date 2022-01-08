@@ -1,11 +1,11 @@
 
 local defaultNotePos = {};
 local spin = true;
-local arrowMoveX = 42;
-local arrowMoveY = 29;
+local arrowMoveX = 30;
+local arrowMoveY = 30;
 
 function onSongStart()
-    for i = 1,7 do 
+    for i = 0,7 do 
         x = getPropertyFromGroup('strumLineNotes', i, 'x')
 
         y = getPropertyFromGroup('strumLineNotes', i, 'y')
@@ -23,8 +23,8 @@ function onUpdate(elapsed)
     currentBeat = (songPos / 1000) * (bpm / 60)
 
     if spin == true then 
-        for i = 1,7 do 
-            setPropertyFromGroup('strumLineNotes', i, 'x', defaultNotePos[i + 1][3] + arrowMoveX * math.sin((currentBeat + i*0.25) * math.pi))
+        for i = 0,7 do 
+            setPropertyFromGroup('strumLineNotes', i, 'x', defaultNotePos[i + 1][1] + arrowMoveX * math.sin((currentBeat + i*0.25) * math.pi))
             setPropertyFromGroup('strumLineNotes', i, 'y', defaultNotePos[i + 1][2] + arrowMoveY * math.cos((currentBeat + i*0.25) * math.pi))
         end
     end
