@@ -57,7 +57,8 @@ class CreditsState extends MusicBeatState
                         ['DemonFeverYT',                   'defalt',            "you It's not a character'",                               'https://m.youtube.com/channel/UCFUjqTSJlxDVEdojsuC0Y0Q',       '0xFFF91894'],
                         ['Wayyzシ',                   'defalt',            "ASS'",                               'https://youtube.com/channel/UC_SRMgasPf6VTd1GJ8Hw48g',       '0xFFF91894'],  
                         ['Deivide',                    'defalt',                   "my first discord friend'",                               'https://m.youtube.com/c/DavidMscFnf/videos',       '0xFFF91894']  
-		
+		];
+
 		for(i in pisspoop){
 			creditsStuff.push(i);
 		}
