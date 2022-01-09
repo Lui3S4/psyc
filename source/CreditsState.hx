@@ -49,14 +49,18 @@ class CreditsState extends MusicBeatState
 
                         ["Creator Cookie Engine"],
 			['DotorBiscoito',		'Biscoito',	"Programmer of Cookie Engine'",				'https://youtube.com/channel/UCq6YSL7iO6mkOFI7fLe_GPA',	'0xFFF86819'],
-                        ['Kauãシ',		'kaua',	"Programmer of Cookie Engine'",				'https://m.youtube.com/channel/UCyPFfh3UejXvytS6p14A9Lg',	'0xFFF86819'],
+                        ['Kauaシ',		'kaua',	"Programmer of Cookie Engine'",				'https://m.youtube.com/channel/UCyPFfh3UejXvytS6p14A9Lg',	'0xFFF86819'],
                         [''],
                         ["friends"],
-			['Frost',                       'defalt',	     "discord man'",				        'https://m.youtube.com/channel/UCZfQGtR3KnLUQ5yYQIXyw7g',	'0xFFF91894'],
-                        ['Black195',                  'defalt',            "brother of kaua'",                               'https://m.youtube.com/channel/UCyPFfh3UejXvytS6p14A9Lg',       '0xFFF91894'],    
-                        ['DemonFeverYT',                   'defalt',            "you It's not a character'",                               'https://m.youtube.com/channel/UCFUjqTSJlxDVEdojsuC0Y0Q',       '0xFFF91894'],
-                        ['Wayyzシ',                   'defalt',            "ASS'",                               'https://youtube.com/channel/UC_SRMgasPf6VTd1GJ8Hw48g',       '0xFFF91894'],  
-                        ['Deivide',                    'defalt',                   "my first discord friend'",                               'https://m.youtube.com/c/DavidMscFnf/videos',       '0xFFF91894']  
+			['Frost',                       'frost',	     "discord man'",				        'https://m.youtube.com/channel/UCZfQGtR3KnLUQ5yYQIXyw7g',	'0xFFF91894'],
+                        ['Black195',                  'black',            "brother of kaua'",                               'https://m.youtube.com/channel/UCyPFfh3UejXvytS6p14A9Lg',       '0xFFF91894'],    
+                        ['DemonFeverYT',                   'fever',            "you It's not a character'",                               'https://m.youtube.com/channel/UCFUjqTSJlxDVEdojsuC0Y0Q',       '0xFFF91894'],
+                        ['Wayyzシ',                   'agoti',            "ASS'",                               'https://youtube.com/channel/UC_SRMgasPf6VTd1GJ8Hw48g',       '0xFFF91894'],  
+                        ['Deivide',                    'selever',                   "my first discord friend'",                               'https://m.youtube.com/c/DavidMscFnf/videos',       '0xFFF91894'],
+                        ['kauazin',                    'zardy',                   "stop threatening me'",                               'https://youtube.com/channel/UCg5mJIEH-HdNX093q5cV52g',       '0xFFF91894'],
+                        [''],
+                        ["Art"],
+                        ['Natsuki',                    'natsuki',                   "artist'",                               'https://m.youtube.com/channel/UCb0zxSI-rXrI1sJ9YPZxigg',       '0xFFF12598']
 		];
 
 		for(i in pisspoop){
