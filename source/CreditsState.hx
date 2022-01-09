@@ -49,7 +49,7 @@ class CreditsState extends MusicBeatState
 
                         ["Creator Cookie Engine"],
 			['DotorBiscoito',		'Biscoito',	"Programmer of Cookie Engine'",				'https://youtube.com/channel/UCq6YSL7iO6mkOFI7fLe_GPA',	'0xFFF86819'],
-                        ['Kauaシ',		'kaua',	"Programmer of Cookie Engine'",				'https://m.youtube.com/channel/UCyPFfh3UejXvytS6p14A9Lg',	'0xFFF86819'],
+                        ['Kauaシ',		'kaua',	"Youtuber and programming'",				'https://m.youtube.com/channel/UCyPFfh3UejXvytS6p14A9Lg',	'0xFFF86819'],
                         [''],
                         ["friends"],
 			['Frost',                       'frost',	     "discord man'",				        'https://m.youtube.com/channel/UCZfQGtR3KnLUQ5yYQIXyw7g',	'0xFFF91894'],
@@ -60,7 +60,7 @@ class CreditsState extends MusicBeatState
                         ['kauazin',                    'zardy',                   "stop threatening me'",                               'https://youtube.com/channel/UCg5mJIEH-HdNX093q5cV52g',       '0xFFF91894'],
                         [''],
                         ["Art"],
-                        ['Natsuki',                    'natsuki',                   "artist'",                               'https://m.youtube.com/channel/UCb0zxSI-rXrI1sJ9YPZxigg',       '0xFFF12598']
+                        ['Natsuki',                    'natsuki',                   "hope you're well'",                               'https://m.youtube.com/channel/UCb0zxSI-rXrI1sJ9YPZxigg',       '0xFFF12598']
 		];
 
 		for(i in pisspoop){
