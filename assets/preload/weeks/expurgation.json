@@ -20,11 +20,11 @@
 			]
 		]
 	],
-	"hideStoryMode": false,
+	"hideStoryMode": true,
 	"weekCharacters": [
-		"MenuTricky",
+		"",
 		"bf",
-		"gf"
+		""
 	],
 	"weekName": "Clown"
 }
