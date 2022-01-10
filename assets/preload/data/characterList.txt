@@ -24,3 +24,6 @@ bf-holding-gf-dead
 gf-tankman
 pico-speaker
 tankman
+bf-hellclown
+gf-hellclown
+extricky
