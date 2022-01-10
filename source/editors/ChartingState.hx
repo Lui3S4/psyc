@@ -60,6 +60,7 @@ class ChartingState extends MusicBeatState
 		'Blammed Note',
 		'halfBlammed Note',
 		'Instakill Note',
+                'Instakill_Note',
                 'Blue Bone Note',
                 'Orange Bone Note',
                 'Ink Note',
